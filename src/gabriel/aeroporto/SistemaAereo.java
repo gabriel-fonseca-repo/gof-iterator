@@ -8,11 +8,11 @@ public class SistemaAereo {
     }
 
     public double getCustoViagem(ViagemAerea viagem) {
-        ViagemAereaIterator iterador = viagem.getIterator();
-        double custo = 0.0;
-        while (iterador.hasNext()) {
-            custo += iterador.next().getCusto();
-        }
-        return custo;
+	ViagemAereaIterator iterador = viagem.getIterator();
+	double custo = 0.0;
+	while (iterador.hasNext()) {
+	    custo += iterador.next().getCusto();
+	}
+	return custo;
     }
 }

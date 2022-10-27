@@ -6,32 +6,32 @@ public class Voo {
     private Double custo;
 
     public Voo(String origem, String destino, Double custo) {
-        this.origem = origem;
-        this.destino = destino;
-        this.custo = custo;
+	this.origem = origem;
+	this.destino = destino;
+	this.custo = custo;
     }
 
     public Double getCusto() {
-        return custo;
+	return custo;
     }
 
     public String getOrigem() {
-        return this.origem;
+	return this.origem;
     }
 
     public String getDestino() {
-        return this.destino;
+	return this.destino;
     }
 
     public void setOrigem(String origem) {
-        this.origem = origem;
+	this.origem = origem;
     }
 
     public void setDestino(String destino) {
-        this.destino = destino;
+	this.destino = destino;
     }
 
     public void setCusto(Double custo) {
-        this.custo = custo;
+	this.custo = custo;
     }
 }
